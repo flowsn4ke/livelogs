@@ -1,0 +1,33 @@
+{
+  "name": "livelogs",
+  "version": "0.0.1",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "description": "",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "translation",
+    "localization"
+  ],
+  "repository": "https://github.com/flowsn4ke/livelogs",
+  "author": {
+    "name": "Theo Louvel",
+    "url": "https://theolouvel.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "microbundle --no-sourcemap --compress",
+    "dev": "microbundle -w --no-compress",
+    "test": "jest",
+    "test:watch": "jest -i --watchAll"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1"
+  }
+}
