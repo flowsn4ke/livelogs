@@ -1,5 +1,5 @@
 {
-  "name": "livelogs",
+  "name": "livelogs-js",
   "version": "0.0.1",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
